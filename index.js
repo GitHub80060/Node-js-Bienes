@@ -48,7 +48,7 @@ app.use('/', appRoutes)
 app.use('/api',apiRoutes)
 
 //Definir un puerto y arrancar el proyecto
-const port = process.env.APP_PORT || 3007;
+const port = process.env.APP_PORT || 3307;
 app.listen(port, () => {
     console.log(`El server esta corriendo desde el puerto: ${port}`)
 });
